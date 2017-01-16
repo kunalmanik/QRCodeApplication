@@ -48,4 +48,9 @@ public class ScanActivity extends AppCompatActivity implements ZXingScannerView.
         AlertDialog alert = builder.create();
         alert.show();
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+    }
 }
